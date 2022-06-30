@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FontSizeEditorComponent } from './font-size-editor.component';
+import { ShowPetInfoComponent } from './show-pet-info.component';
 
-describe('FontSizeEditorComponent', () => {
-  let component: FontSizeEditorComponent;
-  let fixture: ComponentFixture<FontSizeEditorComponent>;
+describe('ShowPetInfoComponent', () => {
+  let component: ShowPetInfoComponent;
+  let fixture: ComponentFixture<ShowPetInfoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FontSizeEditorComponent ]
+      declarations: [ ShowPetInfoComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FontSizeEditorComponent);
+    fixture = TestBed.createComponent(ShowPetInfoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
