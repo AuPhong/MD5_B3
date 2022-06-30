@@ -6,7 +6,7 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./font-size-editor.component.scss']
 })
 export class FontSizeEditorComponent implements OnInit {
-  fontSize = "14";
+  // fontSize = "14";
 
   constructor() {
   }
@@ -14,7 +14,8 @@ export class FontSizeEditorComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  changeFontSizeValue(fontSize: string) {
-    this.fontSize = fontSize;
-  }
+  // changeFontSizeValue(fontSize: string) {
+  //   this.fontSize = fontSize;
+  // }
+  fontSize: any;
 }
